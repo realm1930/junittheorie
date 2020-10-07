@@ -23,6 +23,7 @@ class IsbnTest {
         new Isbn(9789027439642L);
     }
 
+
     @Test
     void toStringMoetHetNummerTeruggeven(){
         assertThat(new Isbn(9789027439642L)).hasToString("9789027439642");
